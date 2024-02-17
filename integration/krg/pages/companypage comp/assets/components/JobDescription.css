@@ -1,0 +1,86 @@
+/* JobDescription.css */
+
+.jobDescriptionContainer {
+    max-width: 800px;
+    margin: 15vh auto 5vh auto; /* Remove auto margin for left alignment */
+    padding: 20px;
+  }
+  
+  .applyButton {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px; /* Add margin for spacing */
+  }
+  
+  .applyButton:hover {
+    background-color: darkblue;
+  }
+  
+  .keySkillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .keySkillButton {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .keySkillButton:hover {
+    background-color: #d0d0d0;
+  }
+
+
+
+
+
+
+  /* Add the following styles for custom bullet points */
+.customBulletList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .customBulletList li {
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .customBulletList li::before {
+    content: '\2022'; 
+    position: absolute;
+    left: 0;
+    color: #333; 
+  }
+
+  .jobDescriptionContainer input[type="text"]{
+  width: 100%;
+  height: 50px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  /* Add more styles as needed */
+}
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .jobDescriptionContainer {
+      padding: 10px;
+    }
+  
+    .keySkillsContainer {
+      flex-direction: column;
+    }
+}

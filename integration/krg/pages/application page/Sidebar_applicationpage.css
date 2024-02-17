@@ -1,0 +1,157 @@
+.sidenav_applicationpage{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: wrap;
+        -ms-flex: wrap;
+            flex: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 12.5%;
+    padding-top: 2.5%;
+    /* text-align: end; */
+    width: 30%;
+    height: 84%;
+    /* font-size: 24px; */
+    /* border:   solid red; */
+
+}
+.path_applicationpage{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    padding: 1%;
+    /* height: 5%; */
+
+}
+
+.profiletablink_applicationpage{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    /* display: flex; */
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    padding: 2%;
+    /* height: 17%; */
+}
+.applicationtablink_applicationpage{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    /* display: flex; */
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    padding: 2%;
+    /* height: 15%; */
+}
+.subcriptionstablink_applicationpage,.settingtablink_applicationpage{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    /* display: flex; */
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    padding: 2%;
+    /* height: 6%; */
+}
+.sublinks_applicationpage{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 75%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 7%;
+    font-size: 1rem;
+    line-height :150%;
+
+    padding: 1%;
+}
+.sidenav_applicationpage a{
+    color: #818181;
+    text-decoration: none;
+    /* display :contents; */
+}
+#tabheading_applicationpage{
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0,0.9);
+}
+
+
+/* @media only screen and (min-width: 992px), screen and (max-width:1200px) { */
+
+    @media only screen and (min-width:990px){
+        .sidenav_applicationpage{
+            padding-left: 1%;
+        }
+        .sublinks_applicationpage{
+            font-size: 0.9rem;
+        }
+        #tabheading_applicationpage{
+            font-size: 1rem;
+        }
+    }
+
+    @media only screen and (min-width:1200px){
+        .sidenav_applicationpage{
+            padding-left: 4%;
+        }
+        .sublinks_applicationpage{
+            font-size: 1rem;
+        }
+        #tabheading_applicationpage{
+            font-size: 1.1rem;
+        }
+    }
+
+    @media only screen and (min-width:1412px){
+    .sidenav_applicationpage{
+        padding-left: 8%;
+    }
+    .sublinks_applicationpage{
+        font-size: 1rem;
+    }
+    #tabheading_applicationpage{
+        font-size: 1.2rem;
+    }
+    }
+
+    @media only screen and (min-width:1600px){
+        .sidenav_applicationpage{
+            padding-left: 12.5%;
+        }
+        .sublinks_applicationpage{
+            font-size: 1rem;
+        }
+        #tabheading_applicationpage{
+            font-size: 1.2rem;
+        }
+    }
+
+    @media only screen and (max-width:990px){
+        .sidenav_applicationpage{
+            display: none;
+        }
+        .sublinks_applicationpage{
+            font-size: 1rem;
+        }
+        #tabheading_applicationpage{
+            font-size: 1.2rem;
+        }
+    }

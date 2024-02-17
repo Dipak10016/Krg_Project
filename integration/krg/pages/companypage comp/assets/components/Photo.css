@@ -1,0 +1,11 @@
+.pagephoto_companypage img, .pagephoto_companypage a img{
+    
+    padding-top: 0px;
+    border: none;
+   padding-left: 1px;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    height: 450px;
+    padding-bottom: 8px;
+}

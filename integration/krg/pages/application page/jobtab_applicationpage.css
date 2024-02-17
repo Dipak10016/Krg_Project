@@ -1,0 +1,237 @@
+    .jobtab_applicationpage{
+        margin: 25px 25px 25px 100px;
+        display: flex;
+        /* justify-content: space-evenly; */
+        align-items: center;
+        width: 65%;
+        color: black;
+        height: 26vh;
+        border-radius: 50px;
+        border: 1px solid rgba(134, 142, 177, 0.90);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+        /* background-color: red; */
+        background: rgb(255, 255, 255);
+        background: linear-gradient(0deg, rgba(255, 0, 195, 0.14) 0%, rgba(255, 0, 166, 0.25) 17%, rgba(255,255,255,1) 31%); 
+    }
+
+
+    .jobimage_applicationpage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+        height: 75%;
+        border-right: 2px solid black;
+    }
+    .jobimage_applicationpage img{
+        width: 80%;
+        height: 60%;
+        
+    }
+    .jobimage_applicationpage2{
+        width: 80%;
+        height: 80%;
+    }
+    .jobstatustext2_applicationpage{
+        display: none;
+    }
+    .jobstatus2_applicationpage{
+        display: none;
+    }
+
+    .jobcontent_applicationpage{
+        display: block;
+        text-align: left;
+        padding-left: 2%;
+        width: 38%;
+        height: 75%;
+    }
+    .jobcontenthead_applicationpage{
+        font-size: 28px;
+        font-weight: 700;
+        width: 100%;
+        height: auto;
+    }
+    .jobcontentdetails_applicationpage{
+        display: flex;
+        width: 80%;
+        height: auto;
+        font-size: 14px;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: green; */
+    }
+    .joblocation_applicationpage,.joblocationname_applicationpage{
+        /* width: auto; */
+        display: flex;
+        align-items: center;
+        padding: 5px;
+    }
+    .joblocation_applicationpage img{
+        width: 25px;
+        height: 40px;
+    }
+    .jobcontentdiscription_applicationpage{
+        font-size: 16px;
+        font-weight: 500;
+        width: 100%;
+        height: 45%;
+
+        overflow: hidden;
+    }
+    .jobstatus_applicationpage{
+        display: flex;
+        width: 30%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #jobstatustext_applicationpage{
+        font-weight: 700;
+    }
+
+    @media only screen and (max-width:990px){
+
+        .jobtab_applicationpage{
+            width:72%;
+            padding: 0px;
+            margin: 25px 25px 25px 62px;
+            /* flex-direction: column; */
+        }
+        /* .jobcontentdetails{
+            display: block;
+        }
+
+        .jobcontent{
+            width: 75%;
+        }
+        .jobimage{
+            width: 25%;
+        }
+        .jobstatus{
+            display: block;
+        } */
+    }
+
+    @media only screen and (max-width:1650px){
+
+        .jobtab_applicationpage{
+            width:72%;
+        }
+    }
+
+    @media only screen and (max-width:1450px){
+
+        .jobtab_applicationpage{
+            width:75%;
+        }
+    }
+    @media only screen and (max-width:1200px){
+
+        .jobtab_applicationpage{
+            width:72%;
+        }
+        .jobcontentdetails_applicationpage{
+            display: block;
+        }
+    }
+
+    @media only screen and (max-width:940px){
+
+        .jobtab_applicationpage{
+            width:72%;
+            padding: 0px;
+            margin: 25px 25px 25px 62px;
+            /* flex-direction: column; */
+        }
+        .jobcontentdiscription_applicationpage{
+            display: none;
+        }
+        .jobstatus_applicationpage,.jobstatustext_applicationpage{
+            display: none;
+        }
+        .jobstatus2_applicationpage{
+            display: block;
+            font-weight: 700;
+
+        }
+        .jobstatustext2_applicationpage{
+            display: flex;
+            font-weight: 500;
+            font-size: 0.7rem;
+        }
+        .jobcontent_applicationpage{
+            width: 80%;
+        }
+    }
+
+    @media only screen and (max-width:1200px){
+
+        .jobtab_applicationpage{
+            width:72%;
+        }
+        .jobcontentdetails_applicationpage{
+            display: block;
+        }
+    }
+
+    @media only screen and (max-width:800px){
+
+        .jobtab_applicationpage{
+            width:80%;
+            padding: 0px;
+            margin: 25px 25px 25px 25px;
+            height: 24vh;
+            /* justify-content: center; */
+            /* flex-direction: column; */
+        }
+        /* .jobcontentdiscription{
+            display: none;
+        } */
+        /* .jobstatus,.jobstatustext{
+            display: none;
+        } */
+        .jobstatus2_applicationpage{
+            display: block;
+            font-weight: 700;
+
+        }
+        .jobstatustext2_applicationpage p{
+            display: flex;
+            font-weight: 500;
+            font-size: 16px;
+        }
+        /* .jobcontent{
+            width: 80%;
+        } */
+    }
+
+    @media only screen and (max-width:660px){
+        .jobtab_applicationpage{
+            width: 90%;
+        }
+    }
+
+    @media only screen and (max-width:460px){
+        .jobtab_applicationpage{
+            height: 22vh;
+            
+        }
+        .jobstatustext2_applicationpage{
+            font-size: 14px;
+        }
+        .jobcontenthead_applicationpage{
+            font-size: 22px;
+        }
+    }
+
+    @media only screen and (max-height:760px){
+        @media only screen and (max-width:990px){
+            .jobsalary_applicationpage{
+                display: none;
+            }
+            .jobtab_applicationpage{
+                width: 95%;
+            }
+        }
+    }

@@ -1,0 +1,114 @@
+html {
+
+    font-family: Sansation, 'Source Sans Pro';
+    background-color: white;
+}
+* {
+	margin: 0;
+	padding: 0;
+
+}
+.banner_contactus{
+  /* color: white; */
+    height: 78vh;
+
+    margin-bottom: 5vh;
+
+    width: 100%;
+    background-image:  url('./assets/image-1-bg.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.navlocation_contactus{
+  color: white;
+    font-size: 36px;
+    display: flex;
+    justify-content: start;
+    width: 90%;
+    height: 20%;
+    align-items :center;
+    padding-left: 8%;
+}
+.contactustext_contactus{
+  color: white;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    /* align-self: center; */
+    font-size: 52px;
+    font-weight: 700;
+}
+.bannertext_contactus{
+  color: white;
+    height: 30%;
+    width: 50%;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 900;
+}
+.contactmovbutton_contactus{
+  color: white;
+    height: 15%;
+}
+.contactmovbutton_contactus button{
+    width: 200px;
+    color: white;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background:linear-gradient(179.49deg, #0385fe 0.44%, #2603fe 74.45%);
+}
+.contactmovbutton_contactus i{
+  color: white;
+}
+@media only screen and (max-width:1332px){
+    .banner_contactus{
+        height: 78vh;
+    }
+    .bannertext_contactus{
+      width: 63%;
+      font-size: 28px;
+      font-weight: 850px;
+    }
+
+  }
+  @media only screen and (max-width:990px){
+    .banner_contactus{
+        height: 100vh;
+    }
+    .bannertext_contactus{
+      width: 70%;
+      font-size: 28px;
+      font-weight: 850px;
+    }
+
+  }
+  @media only screen and (max-width:816px){
+    .banner_contactus{
+        height: 100vh;
+    }
+    .bannertext_contactus{
+      width: 70%;
+      font-size: 23px;
+      font-weight: 850px;
+    }
+  }
+
+  @media only screen and (max-width:520px){
+    
+    .bannertext_contactus{
+        width: 80%;
+      font-size: 19px;
+    }
+    .banner_contactus{
+        height: 100vh;
+    }
+}

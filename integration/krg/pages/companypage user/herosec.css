@@ -1,0 +1,208 @@
+
+.companybanner_companypage_user{
+    width: 100%;
+    height: 10vh;
+    font-size: 36px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* text-decoration: underline; */
+    /* border: 2px rgb(138, 138, 138) solid ; */
+}
+.companylogo_companypage_user img{
+    /* margin: 20px; */
+    width: 100px;
+    height: 100px;
+}
+.imgbackground_companypage_user{
+    background-image: url("./assets/abt-banner2.jpg");
+    display: block;
+
+
+}
+
+.jobdiscription_companypage_user{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    color: rgb(39, 39, 39);
+    line-height: 1.2rem;
+}
+.jobdisheading_companypage_user{
+    text-align: left;
+    width: 100%;
+    padding-left: 5%;
+    /* height: 10vh; */
+    font-size: 32px;
+    color: black;
+}
+.companydis_companypage_user{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    color: rgb(39, 39, 39);
+
+    line-height: 1.2rem;
+}
+.companydisheading_companypage_user{
+    /* display: flex; */
+    text-align: left;
+    width: 100%;
+    padding-left: 5%;
+    /* height: 10vh; */
+    font-size: 32px;
+    color: black;
+}
+.distext_companypage_user{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    padding-top: 2vh;
+    font-size: 20px;
+    line-height: 1.6rem;
+    font-weight: 350;
+}
+.distext_companypage_user{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    padding-top: 8vh;
+    font-size: 20px;
+    line-height: 1.6rem;
+    font-weight: 350;
+}
+.keyskills_companypage_user{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 15vh;
+    padding-top: 8vh;
+    padding-bottom: 4vh;
+    font-size: 24px;
+    text-align: left;
+    /* padding-left: 5%; */
+
+}
+.keyskills_companypage_user p{
+    word-spacing: 3rem;
+}
+.skillheading_companypage_user{
+    padding-left: 5%;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* height: 10vh; */
+    font-size: 32px;
+    color: black;
+    padding-bottom: 2vh;
+    margin: 0;
+}
+.skillheading_companypage_user p {
+    word-spacing: normal;
+    padding: 0;
+    margin: 0;
+    /* padding-left: 5%; */
+}
+#skills_companypage_user{
+    padding-left: 6%;
+    padding-top: 2vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+pre{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+}
+.poweredby_companypage_user{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px blue solid;
+}
+.jobdetailsdiv_companypage_user{
+    width: 100%;
+    /* display: ;/ */
+}
+.maincontent_companypage_user{
+    margin-top: 5vh;
+    padding-top: 2vh;
+    /* border-top: 1px black solid; */
+}
+.jobtitle_companypage_user{
+    width: 100%;
+    font-size: 32px;
+}
+.jobdetail_companypage_user{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+.detailsformat_companypage_user{
+    width: 350px;
+    display: flex;
+
+    align-items: center;
+    /* justify-content: s; */
+}
+.companydisheading_companypage_user{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+@media only screen and (max-width:1600px){
+    .distext_companypage_user{
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width:1300px){
+    .distext_companypage_user{
+        width: 75%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width:990px){
+    .distext_companypage_user{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 5vh;
+    }
+}
+.companydisheading_companypage_user,.skillheading_companypage_user,.jobdisheading_companypage_user{
+    color: rgb(63, 63, 242);
+    border-left:15px blue solid ;
+    /* text-decoration: underline black; */
+    font-family:'Times New Roman', Times, serif;
+}
+@media only screen and (max-width:600px){
+    .distext_companypage_user{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 5vh;
+        padding-top: 10vh;
+    }
+}

@@ -1,0 +1,284 @@
+
+    
+
+    .banner_applicationpage{
+        display: flex;
+        margin-top: 5vh; ;
+        /* background-size: cover; */
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: left;
+        height: 35vh;
+        border-radius: 25px;
+    }
+    .invitebanner_applicationpage{
+        width: 70%;
+        height: 95%;
+        /* border-radius: 25px; */
+        /* border: 2px solid red; */
+        background-image: url("./assets/colorful-confetti-background-with-text-space_1017-32374.avif");
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        color : black;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .bannerboundry_applicationpage{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        border: 2px solid green;
+        border-radius: 45px;
+        background-image: url("colorful-confetti-background-with-text-space_1017-32374.avif");
+        /* background-size: ; */
+
+    }
+
+    .inviteimg_applicationpage{
+        width: 30%;
+        height: 90%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        /* border-radius: 100px; */
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: center;
+    }
+
+    .invitecontent_applicationpage{
+        width: 60%;
+        height: 80%;
+        padding-left: 70px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .invitedialogue_applicationpage{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 100%;
+        height: 75%;
+        /* align-items: center; */
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        line-height: 150%;
+        background-color: white;
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .invitebuttons_applicationpage{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        height: 20%;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .invitebuttons_applicationpage button{
+        background: none;
+        background-color: #006ad5;
+        font-size: 16px;
+        /* border: none; */
+        border-radius: 5px;
+        color: white;
+        width: 200px;
+        height: 60px;
+    }
+
+
+
+    @media only screen and (max-width:1300px){
+
+        .banner_applicationpage{
+         height: 28vh;   
+        }
+        .invitedialogue_applicationpage{
+            font-size: 1.2rem;
+        }
+        .invitebuttons_applicationpage button{
+            width: 140px;
+            height: 50  px;
+        }
+    }
+
+    @media only screen and (max-width:1132px){
+
+        .banner_applicationpage{
+            padding-top: 2vh;
+         height: 26vh;   
+        }
+        .invitedialogue_applicationpage{
+            font-size: 1.1rem;
+        }
+        .invitebuttons_applicationpage button{
+            width: 120px;
+            height: 45px;
+        }
+    }
+
+    @media only screen and (max-width:866px){
+
+        .banner_applicationpage{
+         height: 24vh;
+         width: 100%;   
+        }
+        .invitebanner_applicationpage{
+            width: 80%;
+        }
+        .invitedialogue_applicationpage{
+            font-size: 1rem;
+        }
+        .invitebuttons_applicationpage button{
+            width: 100px;
+            height: 40px;
+        }
+        .invitelink_applicationpage{
+            display: none;
+            /* visibility: none; */
+        }
+        .invitebuttons_applicationpage{
+            justify-content: end;
+        }
+    }
+
+    @media only screen and (max-width:712px){
+
+        .banner_applicationpage{
+         height: 24vh;   
+        }
+        .invitedialogue_applicationpage{
+            font-size: 0.9rem;
+            /* overflow: hidden; */
+        }
+        .invitedialogue_applicationpage h2{
+            display: none;
+        }
+        .invitebuttons_applicationpage button{
+            width: 110px;
+            height: 40px;
+        }
+    }
+
+    @media only screen and (max-width:572px){
+
+        .banner_applicationpage{
+         height: 24vh;   
+        }
+        .invitedialogue_applicationpage{
+            font-size: 0.8rem;
+            /* overflow: hidden; */
+        }
+        .invitedialogue_applicationpage h2{
+            display: none;
+        }
+        .invitebuttons_applicationpage button{
+            width: 110px;
+            height: 35px;
+        }
+        .inviteimg_applicationpage{
+            width: 30%;
+        }
+    }
+
+    @media only screen and (max-width:532px){
+
+        .banner_applicationpage{
+         height: 24vh;   
+         width: 100%;
+         /* justify-content: center; */
+        }
+        .bannerboundry_applicationpage{
+            /* flex-direction: column; */
+            align-items: center;
+            width: 100%;
+        }
+        .invitedialogue_applicationpage{
+            font-size: 0.9rem;
+            width: 80%;
+            /* overflow: hidden; */
+        }
+        .invitedialogue_applicationpage h2{
+            display: none;
+        }
+        .invitebuttons_applicationpage button{
+            width: 110px;
+            height: 35px;
+        }
+        .inviteimg_applicationpage{
+            display: none;
+
+      
+        }
+        .invitecontent_applicationpage{
+            width: 90%;
+        }
+    }
+
+    @media only screen and (max-width:486px){
+
+        .banner_applicationpage{
+         height: 28vh;   
+        }
+        .invitedialogue_applicationpage{
+            font-size: 0.7rem;
+            width: 100%;
+            /* overflow: hidden; */
+        }
+
+        .invitedialogue_applicationpage h2{
+            display: none;
+        }
+        .invitebuttons_applicationpage button{
+            width: 100px;
+            height: 30px;
+            font-size: 0.7rem;
+        }
+        .inviteimg_applicationpage{
+            /* width: 30%; */
+            display: none;
+        }
+    }
+
+    @media only screen and (max-height:760px){
+        .banner_applicationpage{
+            height: 24vh;   
+           }    
+    }
+
+    .inviteimage2_applicationpage img{
+        width: 80%;
+        height: 80%;
+    }

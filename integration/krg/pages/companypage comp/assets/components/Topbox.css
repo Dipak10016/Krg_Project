@@ -1,0 +1,23 @@
+/* Topbox.css */
+.navbar_companypage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure the navbar appears above other content */
+}
+
+.logo img {
+  max-height: 40px; /* Adjust as needed */
+}
+
+.view-more {
+  padding-right: 18px;
+  text-decoration: none;
+}

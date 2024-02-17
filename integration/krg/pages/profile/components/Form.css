@@ -1,0 +1,241 @@
+
+.profile_maincontainer{
+  display: flex;
+  
+}
+
+
+.profile_maincontainer{
+  display: flex;
+  
+}
+.profile_ma{
+  display: flex;
+  width: 60%;
+  margin: 0;
+  padding: 0;
+  
+}
+.profile_form-container{
+  display: flex;
+  justify-content: center;
+}
+
+.profile_col-75 {
+  width: 80%;
+  /* display: ; */
+  /* -ms-flex: 75%; IE10 */
+  /* flex: 75%; */
+  padding: 0 16px;
+                            /*border: 2px red solid;*/
+  /* margin-right: -100%; */
+}
+.profile_container {
+  background-color: #ffffff;
+  padding: 13px ;
+   border-radius: 3px;
+  margin-left:0px;
+  margin-top: 20px;
+ max-width:100%;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.profile_image{
+  height: 80px;
+}
+  .profile_edit{
+    color: #ec0606;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  /* img {
+    max-width: 10%;
+    height: auto;
+} */
+  .profile_rounded-circle{
+    border-radius: 60px;
+    margin-left: 8%;
+    cursor: pointer;
+ }
+  .profile_p-image {
+    margin-left:50%;
+    height:20px ;
+    width: 10px;
+    border-radius: 100%;
+
+    
+
+  }
+  .profile_p-image:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+  }
+  .profile_upload-button {
+    font-size: 1.2em;
+  }
+
+  .profile_row {
+   display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin-left: 40px;
+  }
+  
+  .profile_col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: none;
+    padding: 0 16px;
+    width:100%;
+  }
+  /* Media query for smaller screens */
+@media only screen and (min-width: 200px) {
+  .profile_col-50 {
+    width: 100%; /* Set width to 100% for smaller screens */
+    padding: 0; /* Remove padding for smaller screens */
+  }
+}
+  label {
+    margin-bottom: 10px;
+    display: block;
+    margin-top: 15px;
+    color: #000;
+  }
+  input[type=text] {
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddc6c6;
+    border-radius: 8px;
+    background-color:lightgray; 
+  }
+  .profile_formerror{
+    color: #ec0606;
+  }
+
+
+  .profile_save,.profile_cancel{
+    background-color: #0385FE;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    margin-left:150px
+   
+  }
+  .profile_save:hover,.profile_cancel:hover{
+    background-color: #8bc2f9;
+  }
+  .profile_cancel{
+    margin-left: 5px;
+    
+  }
+ 
+
+
+.profile_form-container{
+  width: 100%;
+}
+@media (min-width: 1150px){
+  .profile_maincontainer {
+      /* Adjust styles for the main container to take up 75% of the width */
+      width: 30%;
+      float: left;
+    }
+    .profile_form-container{
+      float:inline-end;
+   margin:auto;
+  }
+}  
+
+@media only screen and (min-width:1150px){
+  
+.profile_image {
+  text-align: center;
+
+
+
+}
+
+.profile_p-image {
+height:30px ;
+width: 15px;
+border-radius: 100%;
+
+
+}
+
+
+
+.profile_file-upload {
+  display: none;
+
+
+}
+
+.profile_upload-button {
+  font-size: 1.5em;
+  color: #555;
+  cursor: pointer;
+}
+
+.profile_upload-button:hover {
+  color: #333;
+}
+
+}
+
+@media screen and (max-width: 710px) {
+  .profile_ma{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .profile_form-container{
+  
+    width: 95%;
+  }
+  .profile_col-75{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1150px){
+  .profile_ma{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .profile_form-container{
+    
+      width: 76%;
+    }
+    .profile_col-75{
+      width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width:990px){
+  .profile_maincontainer {
+      flex-direction: column; /* Stack the form and sidebar vertically on smaller screens */
+    }
+    .profile_form-container{
+      width: 100%;
+      padding: 0;
+      overflow: hidden;
+      margin-right:0;
+    }
+}
+
+@media only screen and (max-width:500px){
+  body,#root{
+    padding:0;
+    margin: 0;
+  }
+  .profile_col-75{
+    width: 140%;
+  }
+}

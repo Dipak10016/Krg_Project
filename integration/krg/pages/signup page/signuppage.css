@@ -1,0 +1,10 @@
+.signupformdiv{
+    /* width:00; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.supformdiv2{
+    width: 45%;
+}
